@@ -1,7 +1,3 @@
-hello
-can yall see
-yes can see
-hi
 import requests
 url = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=SGD&apikey=W677J7965EU3DEBN"
 response = requests.get(url)
